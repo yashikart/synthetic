@@ -55,4 +55,45 @@ for epoch in range(1001):
 
 
 
+A Generative Adversarial Network has two parts:
+
+Generator (G): creates fake images from random noise.
+
+Discriminator (D): tries to detect whether an image is real or fake.
+
+They compete like a game:
+
+The Generator improves to fool the Discriminator.
+
+The Discriminator improves to detect fakes.
+
+Over time, the Generator learns to produce realistic images.
+
+How It Works (Simple Explanation)
+
+Generator
+
+Takes random noise as input.
+
+Outputs a 28×28 fake image (like a handwritten digit).
+
+Discriminator
+
+Takes an image (real or fake).
+
+Predicts whether it’s real (1) or fake (0).
+
+Training Process
+
+Step 1: Train Discriminator with real & fake images.
+
+Step 2: Train Generator to fool the Discriminator.
+
+Output
+
+Initially, fake images look like noise.
+
+After ~2000+ epochs, digits start to form (0–9 shapes
+
+
         
